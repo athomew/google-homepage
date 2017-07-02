@@ -103,3 +103,68 @@ li {
     postion: relative;
     float: right;
 }
+
+.search-form {
+    width: 500px;
+    height: 130px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchbar-border {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    height: 44px;
+    width: 484px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchbar-container {
+    box-sizing: border-box;
+    width: 439px;
+    height: 44px;
+    display: inline-block;
+}
+
+#searchbar {
+    padding-left: 15px;
+    border: none;
+    width: 95%;
+    line-height: 44px;
+}
+
+#searchbar:focus {
+    outline-style: none;
+}
+
+#voice-button {
+    box-sizing: border-box;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    float: right;
+    background-image: url("../Assets/google-voice.png");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center center;
+}
+
+.search-button {
+    border: 1px solid rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
+    background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+    font-weight: bold;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.search-button:hover {
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+}
